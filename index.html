@@ -1,14 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ashkan</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font awesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="./static/plugin/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./static/plugin/owlcarousel/assets/owl.theme.default.min.css">
+
+  <!-- css bootstartp -->
+  <link rel="stylesheet" href="./static/plugin/css/bootstrap.min.css" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="./static/my/style/style.css" />
+
+  <!-- title site -->
+  <title>TINWELL</title>
 </head>
+
 <body>
 
-    <h1>hello ashkan </h1>
-    
+  <!-- header -->
+  <header>
+    <div class="container animate__animated animate__fadeIn">
+      <nav class="navbar navbar-expand-md">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <img class="img-logo" src="./static/file/img/logo.png" alt="logo" srcset="" loading="lazy" />
+        </a>
+        <!-- btn responsive menu -->
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Things you need</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">settings</a>
+              <!-- <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">Persian</a>
+              </div> -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- header -->
+
+
+  <div class="container animate__animated animate__fadeIn">
+
+    <!-- about us -->
+    <div class="container-fluid parent responsive ">
+      <div class="row">
+        <div class="col-lg-6 sub-txt">
+          <h1 class="title ">about us</h1>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <button class="btn btn-cu-dark m">DEMO</button>
+          <button class="btn btn-cu-white">CONTACT</button>
+        </div>
+        <div class="col-lg-6 sub-img">
+          <img class="img-fluid img-float img-h" src="./static/file/img/about.svg" alt="image-about" loading="lazy" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+
+    <!-- slider phone -->
+    <div class="container-fluid slider responsive">
+      <div class="row">
+        <div class="col-lg-12 p-0">
+          <img class="img-fluid" src="./static/file/img/iphon.png" alt="image-about"  loading="lazy"/>
+          <div class="screen-iphone">
+            <img class="img-fluid img-screen" src="./static/file/img/page2.png" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end slider phone -->
+
+    <!-- introduction reverse 1 -->
+    <div class="container-fluid parent-reverse responsive-reverse">
+      <div class="row">
+        <div class="col-lg-6 sub-txt">
+          <div class="titles">
+            <h2 class="title">web design</h2>
+            <span class="dec">responsive</span>
+          </div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <!-- <button class="btn btn-cu-dark m">DEMO</button> -->
+          <button class="btn btn-cu-white m">CONTACT</button>
+        </div>
+        <div class="col-lg-6 sub-img">
+          <img class="img-float img-h" src="./static/file/img/phone3D.png" alt="image-about" loading="lazy" />
+        </div>
+        
+      </div>
+    </div>
+    <!-- end introduction reverse 1 -->
+
+    <!-- introduction 2 -->
+    <div class="container-fluid parent responsive">
+      <div class="row">
+        <div class="col-lg-6 sub-txt">
+          <h2 class="title">3D design</h2>
+          <span class="dec">object and video</span>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <!-- <button class="btn btn-cu-dark m">DEMO</button> -->
+          <button class="btn btn-cu-white m">CONTACT</button>
+        </div>
+
+        <div class="col-lg-6 sub-img">
+          <img class="rounded img-float img-h" src="./static/file/img/head.png" alt="image-about" loading="lazy" />
+        </div>
+      </div>
+    </div>
+    <!-- end introduction 2 -->
+
+  </div>
+
+
+  <!-- slider -->
+  <div class="container-fluid slider-card responsive">
+    <div class="row">
+      <div class="col-lg-12 sub-txt p-0">
+        <div class="owl-carousel owl-theme">
+          <!-- item -->
+          <div class="item item-slider p-0">
+
+            <div class="card text-center h-100">
+              <img class="card-img-top image-user-circle" src="./static/file/img/user.png" alt="" loading="lazy">
+              <div class="card-body">
+                <h4 class="card-title">ashkan sabbaghi</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- end item -->
+
+          <!-- item -->
+          <div class="item item-slider p-0">
+
+            <div class="card text-center h-100">
+              <img class="card-img-top image-user-circle" src="./static/file/img/user.png" alt="" loading="lazy">
+              <div class="card-body">
+                <h4 class="card-title">ashkan sabbaghi</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- end item -->
+          <!-- item -->
+          <div class="item item-slider p-0">
+
+            <div class="card text-center h-100">
+              <img class="card-img-top image-user-circle" src="./static/file/img/user.png" alt="" loading="lazy">
+              <div class="card-body">
+                <h4 class="card-title">ashkan sabbaghi</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- end item -->
+          <!-- item -->
+          <div class="item item-slider p-0">
+
+            <div class="card text-center h-100">
+              <img class="card-img-top image-user-circle" src="./static/file/img/user.png" alt="" loading="lazy">
+              <div class="card-body">
+                <h4 class="card-title">ashkan sabbaghi</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- end item -->
+          <!-- item -->
+          <div class="item item-slider p-0">
+
+            <div class="card text-center h-100">
+              <img class="card-img-top image-user-circle" src="./static/file/img/user.png" alt="" loading="lazy">
+              <div class="card-body">
+                <h4 class="card-title">ashkan sabbaghi</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- end item -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end slider -->
+
+  <!-- footer -->
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="container pt-5  pb-5">
+          <div class="row">
+            <div class="col-lg-3">
+
+              <div class="list-group">
+                <a href="#" class="list-group-item bold ">Get in touch</a>
+                <a href="#" class="list-group-item ">ashkansabbaghideveop@gmail.com</a>
+                <a href="#" class="list-group-item ">IRAN , TEHRAN</a>
+                <div class="social">
+                  <a href=""> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="list-group">
+                <a href="#" class="list-group-item bold ">Use Cases</a>
+                <a href="#" class="list-group-item ">web design</a>
+                <a href="#" class="list-group-item ">application develop</a>
+                <a href="#" class="list-group-item ">animation </a>
+                <a href="#" class="list-group-item ">3D</a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="list-group">
+                <a href="#" class="list-group-item bold ">Use Cases</a>
+                <a href="#" class="list-group-item ">web design</a>
+                <a href="#" class="list-group-item ">application develop</a>
+                <a href="#" class="list-group-item ">animation </a>
+                <a href="#" class="list-group-item ">3D</a>
+              </div>
+            </div>
+            <div class="col-lg-3 text-center">
+
+              <div class="list-group">
+                <a href="#" class="list-group-item bold text-center">
+                  <img src="./static/file/img/logo.png" alt="logo" srcset="" loading="lazy">
+                </a>
+                <a href="#" class="list-group-item text-center minimum">© Tinwel 2020. All Rights Reserved.</a>
+                <a href="#" class="list-group-item text-center minimum">IRAN | EN | RUS</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- end footer -->
+
+
+  <!-- js -->
+  <script src="./static/plugin/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="./static/plugin/js/jquery.min.js"></script>
+  <script src="./static/plugin/js/bootstrap.min.js"></script>
+  <script src="./static/plugin/js/popper.min.js"></script>
+  <script src="./static/plugin/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./static/my/js/my.js"></script>
+  
 </body>
 </html>
